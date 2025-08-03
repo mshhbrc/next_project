@@ -57,7 +57,6 @@ export default function Page() {
   );
 }
 
-
 export function Center() {
   return (
     <div className="flex mt-7 desktop:mt-0">
