@@ -1,3 +1,14 @@
+export function MainLogo() {
+    return (
+        <section className="w-full">
+            <img
+                src="/images/logo.svg"
+                alt=""
+                className="w-full h-auto"/>
+        </section>
+    )
+}
+
 export function BrainBannerImg() {
     return (
         <section className="w-full">
@@ -47,7 +58,7 @@ export function AboutUs1() {
     return (
         <section className="w-full">
             <img src="/images/about_us1.svg"
-                className="h-40"    
+                className="h-40"
             />
         </section>
     )
@@ -57,7 +68,7 @@ export function AboutUs2() {
     return (
         <section className="w-full">
             <img src="/images/about_us2.svg"
-                className="h-48"    
+                className="h-48"
             />
         </section>
     )
@@ -65,9 +76,9 @@ export function AboutUs2() {
 
 export function AboutUs3() {
     return (
-        <section className="w-full border">
+        <section className="w-full">
             <img src="/images/about_us3.svg"
-                className="h-48"    
+                className="h-48"
             />
         </section>
     )
@@ -77,7 +88,27 @@ export function AboutUs4() {
     return (
         <section className="w-full">
             <img src="/images/about_us4.svg"
-                className="h-40"    
+                className="h-40"
+            />
+        </section>
+    )
+}
+
+export function Cart() {
+    return (
+        <section className="w-full">
+            <img src="/icons/cart.svg"
+                className=""
+            />
+        </section>
+    )
+}
+
+export function Announcement() {
+    return (
+        <section className="">
+            <img src="/icons/announcement.svg"
+                className=""
             />
         </section>
     )

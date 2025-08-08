@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { ErrorImg } from './ui/shop/images';
+import { ErrorImg } from './ui/images';
 import Link from 'next/link';
 
 export default function Error({ error, reset }: { error: Error; reset: () => void }) {
