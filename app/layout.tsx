@@ -1,6 +1,7 @@
-import TopNav from "@/app/ui/shop/topnav";
+import TopNav from "@/app/ui/topnav";
 import './globals.css';
 import { ReactNode } from 'react';
+import Footer from "./ui/footer";
 
 export const metadata = {
   title: 'My App',
@@ -12,11 +13,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
-        <div className="overflow-hidden md:overflow-y-auto">
-          <div className="flex flex-col h-screen">
+        <div className="h-screen overflow-hidden md:overflow-y-auto">
+          <div className="flex flex-col">
               <TopNav/>
-              <div className="flex flex-col h-screen w-full mt-10">{children}</div>
+              <div className="flex flex-col w-full mt-10">{children}</div>
           </div>
+          <div><Footer/></div>
         </div>
       </body>
     </html>
